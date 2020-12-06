@@ -1,3 +1,5 @@
+package day1
+
 import java.io.File
 
 val inputList = File("input.txt").readLines().map { it.toInt() }

@@ -1,3 +1,5 @@
+package day6
+
 import java.io.File
 
 val input = File("input.txt").readLines()
@@ -23,7 +25,7 @@ groups2.add(group2)
 
 var count = 0
 groups.forEach {
-    count += it.toString().toSet().size
+    count += it.toSet().size
 }
 println("$count")
 
